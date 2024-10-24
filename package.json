@@ -43,8 +43,8 @@
   },
   "homepage": "https://github.com/randplus/randplus#readme",
   "dependencies": {
-    "@randplus/0to1": "^2.0.0",
-    "@randplus/buffer": "^1.0.0",
-    "@randplus/color": "^2.0.1"
+    "@randplus/0to1": "^2.0.1",
+    "@randplus/buffer": "^1.0.1",
+    "@randplus/color": "^2.0.2"
   }
 }
