@@ -1,6 +1,11 @@
 # randplus
 A package that add functions for random.
 
+###### Teams
+<a href="https://oto.pet/"><img src="https://raw.githubusercontent.com/randplus/docs/main/img/randplus.png" alt="OTONEKO.CAT" style="display: block; width: auto; height: 100px;"/></a>
+<a href="https://oto.pet/"><img src="https://www.otoneko.cat/img/logo.png" alt="OTONEKO.CAT" style="display: block; width: auto; height: 100px;"/></a>
+<a href="https://www.otoho.me/"><img src="https://www.otoho.me/img/logo.png" alt="Oto Home" style="display: block; width: auto; height: 100px;"/></a>
+
 ## Usage
 ```js
 const random = require('randplus');

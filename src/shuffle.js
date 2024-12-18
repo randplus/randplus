@@ -1,3 +1,9 @@
+/**
+ * @function 
+ * Returns the shuffled string or array.
+ * @param {string | Array<any>} input - The string or array to shuffle.
+ * @returns {string | Array<any>} Returns the shuffled string or array.
+ */
 function shuffle(input) {
   if (typeof input !== 'string' && !Array.isArray(input)) throw new Error('input must be string or array.');
 

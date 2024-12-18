@@ -1,6 +1,6 @@
 {
   "name": "randplus",
-  "version": "5.1.4",
+  "version": "5.1.5",
   "description": "A package that add functions for random.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -43,8 +43,8 @@
   },
   "homepage": "https://github.com/randplus/randplus#readme",
   "dependencies": {
-    "@randplus/0to1": "^2.0.1",
-    "@randplus/buffer": "^1.0.1",
-    "@randplus/color": "^2.1.0"
+    "@randplus/0to1": "^2.0.3",
+    "@randplus/buffer": "^1.0.2",
+    "@randplus/color": "^2.1.2"
   }
 }

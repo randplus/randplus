@@ -1,3 +1,9 @@
+/**
+ * @function 
+ * Returns one result from possible results.
+ * @param {Array<any>} [input=[]] - Possible results.
+ * @returns {any} Returns one result.
+ */
 function array(input = []) {
   if(!Array.isArray(input)) throw new Error('input must be array.');
 

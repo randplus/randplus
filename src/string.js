@@ -1,3 +1,10 @@
+/**
+ * @function 
+ * Returns a string randomly.
+ * @param {string | string[]} input - base string or array.
+ * @param {number?} [length=1] - The length of the returned string.
+ * @returns {string} Returns a random string.
+ */
 function string(input, length = 1) {
   if (!Number.isInteger(length) || length < 0) throw new Error('length must be non-negative number.');
   if (input && typeof input !== 'string' && !Array.isArray(input)) throw new Error('input must be string or array.');

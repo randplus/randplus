@@ -1,5 +1,13 @@
 const randInc1 = require('@randplus/0to1');
 
+/**
+ * @function 
+ * Returns a number randomly.
+ * @param {number | boolean | null} [start=0] - The start of number. If start is boolean, treat it as inc.
+ * @param {number?} [end=1] - The end of number.
+ * @param {boolean?} [inc=true] - Choose whether to include the end of number.
+ * @returns {number} Returns a random number.
+ */
 function number(start = 0, end = 1, inc = false) {
   if (typeof start === 'boolean') {
     inc = start, start = 0, end = 1;
